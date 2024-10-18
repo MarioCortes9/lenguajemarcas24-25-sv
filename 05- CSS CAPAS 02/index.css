@@ -1,0 +1,41 @@
+/* CSS SON TODO REGLAS DE ESTILOS
+    /*1º) Nombre del elemento
+    /*2º) Apertura/Cierre de llaves
+    /*3º) Propiedades a tutiplen!!!!*/
+
+#title{
+    background-color: red;
+}
+#descripcion{
+    background-color: yellow;
+    display: inline-block;
+    border:5px black ridge;/* border se utiliza para definir el grosor del borde de una tabla */
+    padding: 10px; /* crear espacio adicional dentro del elemento*/ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px; /* crear espacio entre el elemento y otros elementos en la página*/
+    margin-left: 0px;
+    display: block; /* para que no interfiera con la de abajo*/
+}
+#card{
+    border: 1px black solid;
+    display: inline-block;
+    margin-left: 50%;
+    padding: 20px;
+}
+#RealZaragoza{
+    width: 150px;
+    height: 150px;
+}
+.border_box{ /*  El punto (.) antes del nombre de la clase indica que se está definiendo una clase. */
+    border: 0.5px black solid;
+}
+#desc1{
+    color: aquamarine;
+}
+#desc2{
+    color: rebeccapurple;
+}
+#desc3{
+    color: yellow;
+}
