@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:'Righteous';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*permite deslizar al clickear*/
+    scroll-behavior: smooth;
+}
+
+/* MENU*/
+
+.container{
+    background: black;
+    position:fixed ;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99; /* superponer elementos*/
+}
+.container header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.container header .logo a{
+    font-size: 35px;
+    color:cyan ;
+    text-decoration: none;
+}
+.container header ul{
+    display: flex;
+    list-style: none;
+}
+.container header nav ul li a{ /* para cada enlace*/
+    text-align: none;
+    color: cyan;
+    margin: 0 8px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.container header nav ul li a:hover{ /*para cuando pinchen*/
+    color: salmon;
+}
+.nav-barras{
+    background-color: aqua;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(to top,rgba(30,35,38,.8), rgba(30,35,38,1));
+    background-image: url('fondonegro.png');
+    background-size: cover;
+    margin-top: -50px;
+    height: 150vh;
+    color :cyan;
+    display: flex;
+    align-items: center;  
+}
+.inicio .containerINICIO{
+    padding: 20px;
+    background-color: rgb(5, 2, 2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+   border-radius: 40px;
+   
+}
+.inicio .containerimg img{
+    margin-top: 10px;
+    border: 1ppx solid cyan;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .containerINICIO h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .containerINICIO h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.conoceme{
+    background-color: black;
+    color: cyan;
+    padding: 50px 20px;
+}
+.conoceme .containerSECCION{
+    max-width: 1100px;
+    margin: auto;
+}
+.conoceme h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Righteous';
+    padding: 20px;
+}
+.conoceme .containerSECCION p{
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 22px;
+    font: 15px;
+}
+.conoceme .containerSECCION .fila{
+    display: flex;
+}
+.conoceme .containerSECCION .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.conoceme .containerSECCION .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.conoceme .containerSECCION .fila .col ul{
+    list-style: none;
+}
+.conoceme .containerSECCION .fila .col ul li{
+    margin: 15px 0;
+}
+.conoceme .containerSECCION .fila .col ul li strong{
+    display: inline-block;
+}
+.conoceme .containerSECCION .fila .col ul li span{
+    background-color: cyan;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.conoceme .containerSECCION .fila .col .containerhobbies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conoceme .containerSECCION .fila .col .containerhobbies .hobbies{
+    width: 130px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conoceme .containerSECCION .fila .col .containerhobbies .hobbies i{
+    color: cyan;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.conoceme .containerSECCION .fila .col .containerhobbies .hobbies span{
+    color: cyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+.galeria{
+    background-color: black;
+    color: cyan;
+    padding: 50px 20px;
+}
+.galeria .containerSECCION{
+    max-width: 1100px;
+    margin: auto;
+}
+.galeria h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Righteous';
+    padding: 20px;
+}
+.galeria .containerSECCION .fila{
+    display: flex;
+}
+.galeria .containerSECCION .fila .col{
+    width: 33.3%;
+}
+.galeria .containerSECCION .fila .col img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px;    
+}   
+.galeria .containerSECCION .fila .col video{    
+    width: 100%;                                        
+    vertical-align: top;
+    border-radius: 10px;
+}
+.galeria .containerSECCION .fila .col p{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}   
+.galeria .containerSECCION .fila .col a{    
+    text-align: center;
+    margin: 20px 0;                                        
+    font-weight: bold;
+    color: cyan;
+    text-decoration: none;
+}
+.galeria .containerSECCION .fila .col a:hover{
+    text-decoration: underline;
+}
