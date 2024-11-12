@@ -78,10 +78,10 @@ html{
    
 }
 .inicio .containerimg img{
-    margin-top: 10px;
+    margin-top: 0px;
     border: 1ppx solid cyan;
     display: block;
-    width: 80%;
+    width: 120%;
     margin: auto;
     border-radius: 100%;
 }
@@ -148,7 +148,7 @@ html{
     flex-wrap: wrap;
 }
 .conoceme .containerSECCION .fila .col .containerhobbies .hobbies{
-    width: 130px;
+    width: 115px;
     height: 100px;
     background-color: #252A2E;
     border-radius: 10px;
@@ -195,22 +195,22 @@ html{
     margin-bottom: 20px;
 }
 .galeria .containerimg  .col img{
-    width: 100%;
-    height: 200px;
+    width: 150%;
+    height: 400px;
     transition: transform 0.5s ease;
     border-radius: 10px;    
     object-fit: cover;
 }   
 .galeria .containerimg .col video{    
     width: 100%;        
-    height: 200px;                                
+    height: 300px;                                
     transition: transform 0.5s ease;
     border-radius: 10px;
     object-fit: cover;
 }
 .galeria .containerimg .col img:hover, 
 .galeria .containerimg .col video:hover {
-    transform: scale(1.05); 
+    transform: scale(1.35); 
 }
 .galeria .containerimg .fila .col p{
     text-align: center;
